@@ -72,8 +72,30 @@ inputElement.addEventListener("keydown",function(event){
         total += 8;
       }
       console.log(total);
-      result.innerText = total;
-      
+      // result.innerText = total;
+      // console.log(typeof total);
+      // var num = total;
+      // var digits = num.toString().split('');
+      // var realDigits = digits.map(Number)
+      // console.log(realDigits);
+      const num = total;
+      const sumDigit = (num, sum = 0) => {
+         if(num){
+            return sumDigit(Math.floor(num / 10), sum + (num % 10));
+         }
+         return sum;
+      };
+      const sumRepeatedly = num => {
+         while(num>9 && !(num ==11 || num ==22)){
+            num = sumDigit(num);
+         };
+         return num;
+      };
+      console.log(sumRepeatedly(num));
+      var singleDigit = sumRepeatedly(num);
+
+      result.innerText = singleDigit;
+
     }
     
     
@@ -102,7 +124,7 @@ class Particle {
     // creation of a particle.
       createParticle() {
         noStroke();
-        fill('rgba(99, 30, 163, 0.76)');
+        fill('rgba(120, 218, 248, 0.913)');
         circle(this.x,this.y,this.r);
       }
     
@@ -122,7 +144,7 @@ class Particle {
         particles.forEach(element =>{
           let dis = dist(this.x,this.y,element.x,element.y);
           if(dis<85) {
-            stroke('rgba(99, 30, 163, 0.2)');
+            stroke('rgba(120, 218, 248, 0.3)');
             line(this.x,this.y,element.x,element.y);
           }
         });
@@ -140,7 +162,7 @@ class Particle {
     }
     
     function draw() {
-      background('#ffffff');
+      background('#242526');
       for(let i = 0;i<particles.length;i++) {
         particles[i].createParticle();
         particles[i].moveParticle();

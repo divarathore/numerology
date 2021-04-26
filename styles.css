@@ -4,6 +4,8 @@
     background-size: auto 100vh;
 } */
 body {
+    color: whitesmoke;
+    /* color: rgba(120, 218, 248, 0.913); */
     text-align: center;
     margin-top: 18%;
     font-family: canada-type-gibson,sans-serif;
@@ -32,3 +34,17 @@ main {
     top: 0;
     z-index: -1;
 }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .result_style {
+        font-size: 2rem;
+        margin-top: 2%;
+    }
+    }
+    

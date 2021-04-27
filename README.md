@@ -32,3 +32,5 @@ what i need to do next:
 
     (auto fill doesnt work)(maybe i'll switch this off)
 
+    the p5.js background isnt exactly repsonsive, like if i refresh the page it fits the screen but if i resize i have to refresh agian.
+

@@ -39,37 +39,41 @@ inputElement.addEventListener("keydown",function(event){
           p1.appendChild(newtext);
       }
       // If letter is any of these, use the no.
-      if (["a", "i", "j", "q", "y"].includes(letter)){
+      if (["a", "i", "j", "q", "y", "A", "I", "J", "Q", "Y", "1"].includes(letter)){
         addTextNode("1");
         total += 1;
       }
-      if (["b", "k", "r"].includes(letter) ){
+      if (["b", "k", "r", "B", "K", "R", "2"].includes(letter) ){
         addTextNode("2");
         total += 2;
       }
-      if (["c", "g", "l", "s"].includes(letter)){
+      if (["c", "g", "l", "s", "C", "G", "L", "S", "3"].includes(letter)){
         addTextNode("3");
         total += 3;
       }
-      if (["d", "m", "t"].includes(letter)){
+      if (["d", "m", "t", "D", "M", "T", "4"].includes(letter)){
         addTextNode("4");
         total += 4;
       }
-      if (["e", "h", "n", "x"].includes(letter)){
+      if (["e", "h", "n", "x", "E", "H", "N", "X", "5"].includes(letter)){
         addTextNode("5");
         total += 5;
       }
-      if (["u", "v", "w"].includes(letter)){
+      if (["u", "v", "w", "U", "V", "W", "6"].includes(letter)){
         addTextNode("6");
         total += 6;
       }
-      if (["o", "z"].includes(letter)){
+      if (["o", "z", "O", "Z", "7"].includes(letter)){
         addTextNode("7");
         total += 7;
       }
-      if (["f", "p"].includes(letter)){
+      if (["f", "p", "F", "P", "8"].includes(letter)){
         addTextNode("8");
         total += 8;
+      }
+      if (["9"].includes(letter)){
+        addTextNode("9");
+        total += 9;
       }
       console.log(total);
       // result.innerText = total;

@@ -29,3 +29,7 @@ what i need to do next:
     i guess how i would do that is like adding the paragraphs to the html and setting them to display none and then telling JavaScript to display them using the ids i give the paragraphs when it maches the single digit.
 
     (i also want this to register actual no.s when the user inputs the data as in right now each alphabets no.s are being added up but if i directly type in no.s say my date of birth i want it to treat these no.s the same way.)
+
+    (auto fill doesnt work)
+
+    (caps lock doesnt work)

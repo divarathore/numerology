@@ -30,6 +30,5 @@ what i need to do next:
 
     (i also want this to register actual no.s when the user inputs the data as in right now each alphabets no.s are being added up but if i directly type in no.s say my date of birth i want it to treat these no.s the same way.)
 
-    (auto fill doesnt work)
+    (auto fill doesnt work)(maybe i'll switch this off)
 
-    (caps lock doesnt work)

@@ -52,14 +52,20 @@ footer {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 2rem;
-    }
-    p {
         font-size: 1.2rem;
     }
-    .result_style {
+    p {
         font-size: 2rem;
+    }
+    body {
+        font-size: 1.5rem;
+    }
+    .result_style {
+        font-size: 3rem;
         margin-top: 2%;
+    }
+    footer {
+        width: 2500px;
     }
     }
     

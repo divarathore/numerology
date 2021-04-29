@@ -1,17 +1,28 @@
+
+@font-face {
+    font-family: vieno;
+    src: url(Vieno0.4Trial-Bold.woff);
+}
+
 h1 {
     font-family: canada-type-gibson,sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 1.3rem;
 }
+a {
+    text-decoration: none;
+    color: rgba(120, 218, 248);
+}
 
 body {
+    background-color: #242526;
     color: whitesmoke;
     text-align: center;
-    margin-top: 18%;
-    font-family: lust-script-display,sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    margin-top: 12%;
+    font-family: vieno,sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
     font-size: 2.2rem;
 }
 
@@ -21,13 +32,14 @@ input {
     font-style: normal;
     color: #242526;
     background-color: rgba(120, 218, 248, 0.68);
+    font-size: 3rem;
 }
 
 .result_style {
-    font-family: lust-script-display,sans-serif;
+    font-family: vieno,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     margin-top: 1%;
 }
 
@@ -42,6 +54,7 @@ input {
     font-size: 1.5rem;
     max-width: 80%;
     text-align: center;
+    margin-top: 0;
 }
 
 /* 
@@ -92,7 +105,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #242526;
+    /* background-color: #242526; */
     animation: lefttoright 50s infinite;
     animation-direction: normal;
 }
@@ -118,6 +131,9 @@ footer {
     }
     footer {
         width: 1500px;
+    }
+    .display_text {
+        font-size: 1.2rem;
     }
     }
     

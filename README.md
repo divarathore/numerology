@@ -24,13 +24,15 @@ what my code is curretnly doing:
 
     other than this i have added an animation in the background which i found in the p5.js examples and i gave it a z-index to push it behind everything and make it the background.
 
-what i need to do next:
-    I need to add a paragraph to each outcome from 1-8 plus 11 and 22 which would show up according to the persons individual name number calculation. 
-    i guess how i would do that is like adding the paragraphs to the html and setting them to display none and then telling JavaScript to display them using the ids i give the paragraphs when it maches the single digit.
+    it register alphabets no.s being added up but if i directly type in no.s say my date of birth it treats these no.s the same way.
 
-    (i also want this to register actual no.s when the user inputs the data as in right now each alphabets no.s are being added up but if i directly type in no.s say my date of birth i want it to treat these no.s the same way.)
+    the p5.js background isnt exactly repsonsive, like if i refresh the page it fits the screen but if i resize i have to refresh agian. i sort of quick fixed this by making the html/body background the same color as the animation background so it doesnt look off.
+
+
+what i need to do next:
+    I added a paragraph to each outcome from 1-8 plus 11 and 22 which would show up according to the persons individual name number calculation. 
+    i guess how i would do that is like adding the paragraphs to the html and setting them to display none and then telling JavaScript to display them using the ids i give the paragraphs when it maches the single digit.
 
     (auto fill doesnt work)(maybe i'll switch this off)
 
-    the p5.js background isnt exactly repsonsive, like if i refresh the page it fits the screen but if i resize i have to refresh agian.
 

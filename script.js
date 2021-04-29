@@ -42,34 +42,50 @@ inputElement.addEventListener("keydown",function(event){
       if (["a", "i", "j", "q", "y", "A", "I", "J", "Q", "Y", "1"].includes(letter)){
         addTextNode("1");
         total += 1;
+        // var element = document.getElementById("one");
+        // element.classList.remove("hidden");
       }
       if (["b", "k", "r", "B", "K", "R", "2"].includes(letter) ){
         addTextNode("2");
         total += 2;
+        // var element = document.getElementById("two");
+        // element.classList.remove("hidden");
       }
       if (["c", "g", "l", "s", "C", "G", "L", "S", "3"].includes(letter)){
         addTextNode("3");
         total += 3;
+        // var element = document.getElementById("three");
+        // element.classList.remove("hidden");
       }
       if (["d", "m", "t", "D", "M", "T", "4"].includes(letter)){
         addTextNode("4");
         total += 4;
+        // var element = document.getElementById("four");
+        // element.classList.remove("hidden");
       }
       if (["e", "h", "n", "x", "E", "H", "N", "X", "5"].includes(letter)){
         addTextNode("5");
         total += 5;
+        // var element = document.getElementById("five");
+        // element.classList.remove("hidden");
       }
       if (["u", "v", "w", "U", "V", "W", "6"].includes(letter)){
         addTextNode("6");
         total += 6;
+        // var element = document.getElementById("six");
+        // element.classList.remove("hidden");
       }
       if (["o", "z", "O", "Z", "7"].includes(letter)){
         addTextNode("7");
         total += 7;
+        // var element = document.getElementById("seven");
+        // element.classList.remove("hidden");
       }
       if (["f", "p", "F", "P", "8"].includes(letter)){
         addTextNode("8");
         total += 8;
+        // var element = document.getElementById("");
+        // element.classList.remove("hidden");
       }
       if (["9"].includes(letter)){
         addTextNode("9");

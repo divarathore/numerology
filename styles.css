@@ -70,7 +70,7 @@ footer {
     animation: lefttoright 50s infinite;
     animation-direction: normal;
 }
-@keyframes lefttoright {
+@keyframes lefttoright { 
     0% {left: 1500px;}
     100% {left: -1500px;}
 }

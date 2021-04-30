@@ -1,5 +1,5 @@
 
-    
+     
 let inputElement = document.querySelector("#input");
 
 let result = document.querySelector("#result");
@@ -10,6 +10,7 @@ inputElement.addEventListener("keydown",function(event){
   // Detect when we specifically press enter key
   if (event.key == "Enter"){
     let total = 0;
+    let singleDigit;
 
     
     // Get the contents of the text input (aka name)
@@ -112,10 +113,14 @@ inputElement.addEventListener("keydown",function(event){
          return num;
       };
       console.log(sumRepeatedly(num));
-      var singleDigit = sumRepeatedly(num);
+      singleDigit = sumRepeatedly(num);
 
       result.innerText = singleDigit;
 
+    }
+    if (singleDigit = 1 ){
+      var element = document.getElementById("one");
+      element.classList.remove("hidden");
     }
     
     

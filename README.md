@@ -21,18 +21,14 @@ what my code is curretnly doing:
     but after we arive at 12 i am making JavaScript add those no.s further to arrive at a single digit 
     and keeping an exception for 11 and 22 (meaning not adding that further like 11 to 2 or 22 to 4)
     how this is happening is basically theres a math function which is individualising the number into digits and adding them together and giving out a sum and then checking if it is less than 9 (also making sure if its ever 11 or 22 to leave it to that) then it shows that otherwise it adds further to come to a single digit.
-
-    other than this i have added an animation in the background which i found in the p5.js examples and i gave it a z-index to push it behind everything and make it the background.
-
-    it register alphabets no.s being added up but if i directly type in no.s say my date of birth it treats these no.s the same way.
-
-    the p5.js background isnt exactly repsonsive, like if i refresh the page it fits the screen but if i resize i have to refresh agian. i sort of quick fixed this by making the html/body background the same color as the animation background so it doesnt look off.
+    Other than this i have added an animation in the background which i found in the p5.js examples and i gave it a z-index to push it behind everything and make it the background.
+    It register alphabets no.s being added up but if i directly type in no.s say my date of birth it treats these no.s the same way.
+    The p5.js background isnt exactly repsonsive, like if i refresh the page it fits the screen but if i resize i have to refresh agian. i sort of quick fixed this by making the html/body background the same color as the animation background so it doesnt look off.
 
 
 what i need to do next:
     I added a paragraph to each outcome from 1-8 plus 11 and 22 which would show up according to the persons individual name number calculation. 
     i guess how i would do that is like adding the paragraphs to the html and setting them to display none and then telling JavaScript to display them using the ids i give the paragraphs when it maches the single digit.
-
     (auto fill doesnt work)(maybe i'll switch this off)
 
 

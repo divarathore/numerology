@@ -2,20 +2,24 @@
     font-family: vieno;
     src: url(Vieno0.4Trial-Bold.woff);
 }
+
 body {
     background-color: #242526;
     color: whitesmoke;
 }
+
 h1 {
     color: whitesmoke;
     text-align: center;
     font-family: vieno,sans-serif;
     font-size: 2.2rem;
 }
+
 a {
     text-decoration: none;
-    color: rgba(120, 218, 248, 0.575);
+    color: rgba(120, 218, 248, 0.66);
 }
+
 p {
     font-family: canada-type-gibson,sans-serif;
     font-weight: 100;
@@ -25,6 +29,7 @@ p {
     width: 80%;
     margin-left: 10%;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
@@ -32,7 +37,8 @@ p {
     padding: 10px;
     width: 80%;
     margin-left: 10%;
-  }
+}
+
 .grid-item {
     background-color: rgba(255, 255, 255, 0.221);
     padding: 12px;
@@ -40,6 +46,7 @@ p {
     text-align: center;
     align-content: space-around; 
 }
+
 .abc {
     color: rgb(204, 243, 255);
 }
@@ -48,4 +55,20 @@ main {
     position: absolute;
     top: 0;
     z-index: -1;
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 1.9rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+
+    .grid-item {
+        font-size: 20px;
+        padding: 2px;
+    }
+
 }

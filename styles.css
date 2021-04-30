@@ -91,6 +91,11 @@ footer {
 
 	p {
 		font-size: 2rem;
+		max-width: 400px;
+	}
+
+	input {
+		font-size: 2rem;
 	}
 
 	body {

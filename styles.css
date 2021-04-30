@@ -1,99 +1,112 @@
-
 @font-face {
-    font-family: vieno;
-    src: url(Vieno0.4Trial-Bold.woff);
+	font-family: vieno;
+	src: url(Vieno0.4Trial-Bold.woff);
 }
 
 h1 {
-    font-family: canada-type-gibson,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1.3rem;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 1.3rem;
 }
+
 a {
-    text-decoration: none;
-    color: rgba(120, 218, 248);
+	text-decoration: none;
+	color: rgba(120, 218, 248);
 }
 
 body {
-    background-color: #242526;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 12%;
-    font-family: vieno,sans-serif;
-    font-size: 2.2rem;
+	background-color: #242526;
+	color: whitesmoke;
+	text-align: center;
+	margin-top: 12%;
+	font-family: vieno, sans-serif;
+	font-size: 2.2rem;
 }
 
 input {
-    font-family: canada-type-gibson,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #242526;
-    background-color: rgba(120, 218, 248, 0.68);
-    font-size: 3rem;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	color: #242526;
+	background-color: rgba(120, 218, 248, 0.68);
+	font-size: 3rem;
 }
 
 .result_style {
-    font-family: vieno,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 3.5rem;
-    margin-top: 1%;
+	font-family: vieno, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3.5rem;
+	margin-top: 1%;
 }
 
 .hidden {
-    display: none !important;
+	display: none !important;
 }
+
 .display_text {
-    display: inline-block;
-    font-family: canada-type-gibson,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1.5rem;
-    max-width: 80%;
-    text-align: center;
-    margin-top: 0;
+	display: inline-block;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 1.5rem;
+	max-width: 80%;
+	text-align: center;
+	margin-top: 0;
 }
+
 main {
-    position: absolute;
-    top: 0;
-    z-index: -1;
+	position: absolute;
+	top: 0;
+	z-index: -1;
 }
+
 footer {
-    font-family: canada-type-gibson,sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 1500px;
-    animation: lefttoright 50s infinite;
-    animation-direction: normal;
+	font-family: canada-type-gibson, sans-serif;
+	font-weight: 100;
+	font-style: normal;
+	font-size: 1rem;
+	position: fixed;
+	bottom: 0;
+	width: 1500px;
+	animation: lefttoright 50s infinite;
+	animation-direction: normal;
 }
-@keyframes lefttoright { 
-    0% {left: 1500px;}
-    100% {left: -1500px;}
+
+@keyframes lefttoright {
+	0% {
+		left: 1500px;
+	}
+
+	100% {
+		left: -1500px;
+	}
 }
 
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1.2rem;
-    }
-    p {
-        font-size: 2rem;
-    }
-    body {
-        font-size: 1.5rem;
-    }
-    .result_style {
-        font-size: 3rem;
-        margin-top: 2%;
-    }
-    footer {
-        width: 1500px;
-    }
-    .display_text {
-        font-size: 1.2rem;
-    }
-    }
-    
+	h1 {
+		font-size: 1.2rem;
+	}
+
+	p {
+		font-size: 2rem;
+	}
+
+	body {
+		font-size: 1.5rem;
+	}
+
+	.result_style {
+		font-size: 3rem;
+		margin-top: 2%;
+	}
+
+	footer {
+		width: 1500px;
+	}
+
+	.display_text {
+		font-size: 1.2rem;
+	}
+}

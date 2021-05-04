@@ -11,20 +11,22 @@ body {
 h1 {
     color: whitesmoke;
     text-align: center;
-    font-family: vieno,sans-serif;
-    font-size: 2.2rem;
+	font-family: fino-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+    font-size: 3.2rem;
 }
 
 a {
     text-decoration: none;
-    color: rgba(120, 218, 248, 0.66);
+    color: rgba(120, 218, 248, 0.749);
 }
 
 p {
     font-family: canada-type-gibson,sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     width: 80%;
     margin-left: 10%;

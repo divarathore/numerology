@@ -3,6 +3,38 @@
 	src: url(Vieno0.4Trial-Bold.woff);
 }
 
+p {
+	/* font-family: farmhand,serif;
+	font-weight: 400;
+	font-style: normal; */
+	/* font-family: gautreaux,sans-serif;
+	font-weight: 700;
+	font-style: normal; */
+	/* font-family: corner-store-jf,sans-serif;
+	font-weight: 400;
+	font-style: normal; */
+	/* font-family: rig-solid-light-halftone,sans-serif;
+	font-weight: 300;
+	font-style: normal; */
+	/* font-family: rig-solid-zero-halftone,sans-serif;
+	font-weight: 100;
+	font-style: normal; */
+	/* font-family: delaney,sans-serif;
+	font-weight: 600;
+	font-style: normal; */
+
+	/* font-family: liebedoni-solid,sans-serif;
+	font-weight: 400;
+	font-style: normal; */
+	/* font-family: bely-display,sans-serif;
+	font-weight: 400;
+	font-style: normal; */
+	font-family: fino-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: whitesmoke;
+	font-size: 3rem;
+}
 h1 {
 	font-family: canada-type-gibson, sans-serif;
 	font-weight: 100;
@@ -34,10 +66,10 @@ input {
 }
 
 .result_style {
-	font-family: vieno, sans-serif;
-	font-weight: 400;
+	font-family: fino-sans,sans-serif;
+	font-weight: 700;
 	font-style: normal;
-	font-size: 3.5rem;
+	font-size: 4rem;
 	margin-top: 1%;
 }
 

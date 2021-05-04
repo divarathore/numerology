@@ -98,11 +98,14 @@ footer {
 	}
 
 	p {
+		margin-top: 8%;
+		margin-left: 2%;
 		font-size: 3rem;
 		max-width: 400px;
 	}
 
 	input {
+		margin-top: -10%;
 		font-size: 2rem;
 	}
 

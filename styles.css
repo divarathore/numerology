@@ -1,40 +1,12 @@
-@font-face {
-	font-family: vieno;
-	src: url(Vieno0.4Trial-Bold.woff);
-}
-
-p {
-	/* font-family: farmhand,serif;
-	font-weight: 400;
-	font-style: normal; */
-	/* font-family: gautreaux,sans-serif;
-	font-weight: 700;
-	font-style: normal; */
-	/* font-family: corner-store-jf,sans-serif;
-	font-weight: 400;
-	font-style: normal; */
-	/* font-family: rig-solid-light-halftone,sans-serif;
-	font-weight: 300;
-	font-style: normal; */
-	/* font-family: rig-solid-zero-halftone,sans-serif;
-	font-weight: 100;
-	font-style: normal; */
-	/* font-family: delaney,sans-serif;
-	font-weight: 600;
-	font-style: normal; */
-
-	/* font-family: liebedoni-solid,sans-serif;
-	font-weight: 400;
-	font-style: normal; */
-	/* font-family: bely-display,sans-serif;
-	font-weight: 400;
-	font-style: normal; */
-	font-family: fino-sans,sans-serif;
-	font-weight: 700;
-	font-style: normal;
+body {
+	background-color: #242526;
 	color: whitesmoke;
-	font-size: 3rem;
+	text-align: center;
+	margin-top: 10%;
+	font-family: vieno, sans-serif;
+	font-size: 2.2rem;
 }
+
 h1 {
 	font-family: canada-type-gibson, sans-serif;
 	font-weight: 100;
@@ -47,13 +19,12 @@ a {
 	color: rgba(120, 218, 248);
 }
 
-body {
-	background-color: #242526;
+p {
+	font-family: fino-sans,sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	color: whitesmoke;
-	text-align: center;
-	margin-top: 12%;
-	font-family: vieno, sans-serif;
-	font-size: 2.2rem;
+	font-size: 3rem;
 }
 
 input {
@@ -117,21 +88,22 @@ footer {
 }
 
 @media (max-width: 480px) {
+	
+	body {
+		font-size: 1.5rem;
+	}
+	
 	h1 {
 		font-size: 1.2rem;
 	}
 
 	p {
-		font-size: 2rem;
+		font-size: 3rem;
 		max-width: 400px;
 	}
 
 	input {
 		font-size: 2rem;
-	}
-
-	body {
-		font-size: 1.5rem;
 	}
 
 	.result_style {

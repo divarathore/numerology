@@ -53,6 +53,17 @@ p {
     color: rgb(204, 243, 255);
 }
 
+.blur {
+    position: absolute;
+    background-color: rgba(53, 52, 50, 0.5);
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    letter-spacing: 1px;
+    width: 100vw;
+	height: 100vh;
+    top: 0;
+}
+
 main {
     position: absolute;
     top: 0;

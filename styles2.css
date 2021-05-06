@@ -11,7 +11,7 @@ body {
 h1 {
     color: whitesmoke;
     text-align: center;
-	font-family: fino-sans,sans-serif;
+	font-family: ivypresto-display,serif;
 	font-weight: 700;
 	font-style: normal;
     font-size: 3.2rem;
@@ -20,6 +20,10 @@ h1 {
 a {
     text-decoration: none;
     color: rgba(120, 218, 248, 0.749);
+}
+
+a:hover {
+	text-shadow: 0 0 10px rgb(10, 155, 199);
 }
 
 p {
@@ -36,6 +40,9 @@ p {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;
     background-color: rgba(120, 218, 248, 0.461);
+    font-family: ivypresto-display,serif;
+    font-weight: 400;
+    font-style: normal;
     padding: 10px;
     width: 80%;
     margin-left: 8%;

@@ -18,12 +18,16 @@ a {
 	color: rgba(120, 218, 248);
 }
 
+a:hover {
+	text-shadow: 0 0 10px rgb(10, 155, 199);
+}
+
 p {
-	font-family: fino-sans,sans-serif;
+	font-family: ivypresto-display,serif;
 	font-weight: 700;
 	font-style: normal;
 	color: whitesmoke;
-	font-size: 3rem;
+	font-size: 3.5rem;
 }
 
 input {
@@ -32,15 +36,22 @@ input {
 	font-style: normal;
 	color: #242526;
 	background-color: rgba(120, 218, 248, 0.68);
-	font-size: 3rem;
+	font-size: 3.9rem;
 }
 
+input:focus {
+	border-color: rgb(120, 218, 248);
+	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(120, 218, 248, 0.68);
+	  outline: 0 none;
+  }
+
 .result_style {
-	font-family: fino-sans,sans-serif;
+	font-family: ivypresto-display,serif;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 4rem;
 	margin-top: 1%;
+	text-shadow: 0 0 20px rgb(10, 155, 199);
 }
 
 .hidden {

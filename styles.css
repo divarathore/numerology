@@ -43,7 +43,7 @@ input:focus {
 	border-color: rgb(120, 218, 248);
 	  box-shadow: 0 0 10px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(120, 218, 248, 0.68);
 	  outline: 0 none;
-  }
+}
 
 .result_style {
 	font-family: ivypresto-display,serif;

@@ -24,11 +24,12 @@ what my code is curretnly doing:
     Other than this i have added an animation in the background which i found in the p5.js examples and i gave it a z-index to push it behind everything and make it the background.
     It register alphabets no.s being added up but if i directly type in no.s say my date of birth it treats these no.s the same way.
     The p5.js background isnt exactly repsonsive, like if i refresh the page it fits the screen but if i resize i have to refresh agian. i sort of quick fixed this by making the html/body background the same color as the animation background so it doesnt look off.
+    I added a paragraph to each outcome from 1-8 plus 11 and 22 which would show up according to the persons individual name number calculation. To do that is like adding the paragraphs to the html and setting them to display none and adding a hidden class individually and then telling JavaScript to remove that hidden class based on the no. that gets displayed so the paragraphs matches the single digit.
 
 
 what i need to do next:
-    I added a paragraph to each outcome from 1-8 plus 11 and 22 which would show up according to the persons individual name number calculation. 
-    i guess how i would do that is like adding the paragraphs to the html and setting them to display none and then telling JavaScript to display them using the ids i give the paragraphs when it maches the single digit.
+    
     (auto fill doesnt work)(maybe i'll switch this off)
+    (also on iphone i want it to register the done button as enter too.)
 
 

@@ -67,6 +67,10 @@ inputElement.addEventListener("keydown", function(event) {
 			}
 			console.log(total);
 		}
+
+		//take the total and check if its is a single digit
+		// if it is not a single digit add the digits to each other till they are single digits
+		//if the digit is greater than 9 and is equal to 11 or 22 then dont add them further.
 		const num = total;
 		const sumDigit = (num, sum = 0) => {
 			if (num) {
@@ -85,6 +89,7 @@ inputElement.addEventListener("keydown", function(event) {
 
 		result.innerText = singleDigit;
 
+		//find the display_text class and remove the class hidden from the individual p tag equal to the total aka singleDigit.
     document.querySelectorAll('.display_text').forEach((p) => p.classList.add('hidden'));
 		document.querySelector(`[data-number="${singleDigit}"]`).classList.remove('hidden')
 
